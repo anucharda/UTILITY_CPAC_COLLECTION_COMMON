@@ -7,6 +7,9 @@ package th.co.ais.cpac.cl.common;
 
 import java.io.File;
 import org.apache.log4j.PropertyConfigurator;
+
+import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMessages_es;
+
 import th.co.ais.cpac.cl.template.logger.LoggerTemplate;
 
 /**
@@ -16,13 +19,14 @@ import th.co.ais.cpac.cl.template.logger.LoggerTemplate;
 public class UtilityLogger extends LoggerTemplate {
 
   static {
-    initailLogger();
+    //initailLogger();
   }
 
   public static void initailLogger() {
     try {
       PropertyConfigurator.configure(Class.forName("th.co.ais.cpac.cl.common.UtilityLogger").getResource("log4j.properties"));
     } catch (ClassNotFoundException ex) {
+    	ex.printStackTrace();
     }
   }
 
