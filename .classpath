@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_112"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_121"/>
 	<classpathentry kind="lib" path="/__JBOSS_DATA_GRID/lib/commons-pool-1.6.0.redhat-7.jar"/>
 	<classpathentry kind="lib" path="/__JBOSS_DATA_GRID/lib/cpac-common-cache-1.0.jar"/>
 	<classpathentry kind="lib" path="/__JBOSS_DATA_GRID/lib/infinispan-client-hotrod-6.3.0.Final-redhat-5.jar"/>
@@ -12,14 +12,9 @@
 	<classpathentry kind="lib" path="/__JBOSS_DATA_GRID/lib/jboss-marshalling-river-1.4.10.Final-redhat-1.jar"/>
 	<classpathentry kind="lib" path="/__JBOSS_DATA_GRID/lib/jboss-transaction-api_1.1_spec-1.0.1.Final-redhat-2.jar"/>
 	<classpathentry kind="lib" path="/__JBOSS_DATA_GRID/lib/jgroups-3.6.3.Final-redhat-3.jar"/>
-	<classpathentry kind="lib" path="/BatchTreatment/lib/log4j-1.1.3.jar"/>
-	<classpathentry kind="lib" path="/BatchTreatment/lib/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="/BatchTreatment/lib/log4j-jboss-logmanager-1.1.1.Final-redhat-1.jar"/>
-	<classpathentry kind="lib" path="/BatchTreatment/lib/jconn4.jar"/>
-	<classpathentry kind="lib" path="/BatchTreatment/lib/commons-dbcp2-2.1.1.jar"/>
-	<classpathentry kind="lib" path="/BatchTreatment/lib/commons-logging-1.1.3.jar"/>
-	<classpathentry kind="lib" path="/BatchTreatment/lib/commons-pool2-2.2.jar"/>
-	<classpathentry kind="lib" path="/BatchTreatment/lib/cpac_collection_criteria - Copy.jar"/>
-	<classpathentry kind="lib" path="/BatchTreatment/lib/cpac_collection_criteria.jar"/>
+	<classpathentry kind="lib" path="lib/commons-dbcp2-2.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool2-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/jconn4.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
