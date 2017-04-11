@@ -56,9 +56,11 @@ public abstract class DBTemplatesExecuteQuery<R extends DBTemplatesResponse, L e
       }
     } catch (SQLException e) {
       setValue(e);
+      e.printStackTrace();
       logger.debug("e", e);
     } catch (Exception e) {
       setValue(e);
+      e.printStackTrace();
       logger.debug("e1", e);
       //e.printStackTrace(System.err);
     } finally {
